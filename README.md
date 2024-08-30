@@ -1,5 +1,5 @@
 # Solutions for BGLCORP-devops-interview-test  
-Candidate: Dimuthu Hippola<br>.
+Candidate: Dimuthu Hippola.<br>
 Solutions scripts and files are included in seperate folders for each excercise.
 
 <br><b>Exercise 1: JSON:</b><br>
