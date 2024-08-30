@@ -1,5 +1,6 @@
 # Solutions for BGLCORP-devops-interview-test  
 Candidate: Dimuthu Hippola
+Solutions scripts and files are included in seperate folders for each excercise.
 
 <br><b>Exercise 1: JSON:</b><br>
 - First the script will start installing wget to down load the csv file from git hub.<br>
