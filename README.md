@@ -14,15 +14,16 @@ Candidate: Dimuthu Hippola
 
 
 <br><b>Exercise 2: Terraform:</b><br>
-- Terraform module is written in Excercise-2/main.tf file<br>.
+- Terraform module is written in Excercise-2/main.tf file.<br>
 - Provider used AWS.
-- Resources used "aws_iam_user", "aws_iam_group", and "aws_iam_user_group_membership".
+- Resources used "aws_iam_user", "aws_iam_group", and "aws_iam_user_group_membership".<br>
 
 <br><b>Exercise 3: Dockerfile:</b><br>
-- used alpine:latest as the base image for html-writer stage<br>.
-- used nginx:latest for stage 2<br>.
-- used -g 'daemon-off;' flag to run nginx in foreground<br>.
+- used alpine:latest as the base image for html-writer stage.<br>
+- used nginx:latest for stage 2.<br>
+- used -g 'daemon-off;' flag to run nginx in foreground.<br>
 
 <br><b>Exercise 4: Kubernetes:</b><br>
-- used alpine:latest as the image for the init container<br>.
-- init container uses wget to download the text file and write it into the desired location<br>.
+- used alpine:latest as the image for the init container.<br>
+- init container uses wget to download the text file and write it into the desired location.<br>
+- restartPolicy is set to Never to avoid auto matic restarting of the pod by k8 ensuring the pod is stoped after the file is read.<br>
