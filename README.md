@@ -10,7 +10,7 @@ Candidate: Dimuthu Hippola
     - capture the instance_id, raw_date, instance_typem private_ip and instance_deployment_option fields.
     - convert the raw_date value into the desired format.
     - check whether the raw_date is earlier than the threshold date and prints the instance_id if the confdition is met.
-- finally it will remove the downloaded csvfile.<br>
+- finally it will remove the downloaded csv file.<br>
 
 
 <br><b>Exercise 2: Terraform:</b><br>
