@@ -15,7 +15,7 @@ echo "downloading csv file ..."
 wget -O $INPUT_FILE https://raw.githubusercontent.com/BGLCorp/devops-interview-tests/main/ec2-instances.csv
 
 # Read the CSV file line by line
-while IFS=, read -r instance_id raw_date instance_type private_ip instance_type
+while IFS=, read -r instance_id raw_date instance_type private_ip deployment_option
 do
   # Extract date and time, rearrange to match the DATE_THRESHOLD format
   formatted_date=$(date -d "$(echo $raw_date | tr -d '"')" +'%Y-%m-%dT%H:%M:%S')
